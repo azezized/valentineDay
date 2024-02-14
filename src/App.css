@@ -2,4 +2,10 @@
   font-size: 2rem;
   text-align: center;
   color: black;
+  font-weight: bold; /* makes the text bold */
+  text-transform: uppercase; /* transforms the text to uppercase */
+  letter-spacing: 0.1em; /* increases the space between letters */
+  background-color: #f8f9fa; /* sets a light grey background */
+  padding: 20px; /* adds space around the text */
+  border-radius: 5px; /* rounds the corners of the element */
 }
