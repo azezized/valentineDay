@@ -1,0 +1,23 @@
+.skillTitle {
+  font-size: 3rem;
+  font-weight: 600;
+  padding-top: 3rem;
+}
+
+.resume {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background: rgb(40, 40, 40);
+  height: 2rem;
+  max-width: 15rem;
+  margin: auto;
+}
+
+.resume:hover {
+  color: yellow;
+}

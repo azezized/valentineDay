@@ -1,0 +1,13 @@
+.graduation {
+  position: absolute;
+  top: 7rem;
+  z-index: -1;
+  object-fit: cover;
+  height: 100vh;
+  max-height: 500rem;
+}
+.title {
+  font-size: 2rem;
+  text-align: center;
+  color: black;
+}

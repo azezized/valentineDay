@@ -1,0 +1,87 @@
+.navbar {
+  height: 5rem;
+  width: 100vw;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  max-width: 110rem;
+}
+
+.logo {
+  object-fit: cover;
+  height: 3rem;
+  width: 4rem;
+}
+
+.active {
+  color: yellow;
+  border-bottom: 3px solid yellow;
+  padding-bottom: 0.5rem;
+}
+
+.desktopMenuListItem {
+  margin: 1rem;
+  /* Permet à la souris de changer de forme au survol */
+  cursor: pointer;
+}
+
+.desktopMenuListItem:hover {
+  color: yellow;
+  border-bottom: 1px solid yellow;
+}
+.desktopMenuImg {
+  object-fit: cover;
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.desktopMenu {
+  overflow: hidden;
+}
+
+.desktopMenuBtn {
+  background: white;
+  color: black;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  background: white;
+  margin-right: 2rem;
+}
+
+.desktopMenuBtn:hover {
+  background: yellow;
+}
+
+@media screen and (max-width: 840px) {
+  .desktopMenuBtn {
+    font-size: 0.4rem;
+    width: 4rem;
+  }
+  .logo {
+    height: 2rem;
+    width: 3rem;
+  }
+  .desktopMenuListItem {
+    font-size: 0.5rem;
+    margin: 0.4rem;
+  }
+  .desktopMenuImg {
+    height: 0.7rem;
+    width: 0.7rem;
+  }
+  .navbar {
+    position: sticky;
+    top: 0;
+  }
+}
