@@ -8,11 +8,9 @@ interface HomeProps {}
 const Home: FC<HomeProps> = () => (
   <section id="home">
     <div className="homeContent">
-      <span className="hello">Joyeuse saint valentin</span>
       <span className="introText">
+        Joyeuse Saint Valentin
         <span className="homeName">Fatima</span>
-        <br />
-        Joyeuse Saint Valentin !
       </span>
       <p className="introPara">
         Happy valentine's day to the love of my life, my Best friend !
